@@ -7,7 +7,7 @@ import Portfolio from './pages/Portfolio';
 
 function App() {
   return (
-    <Router basename="/reactportfolio">
+    <Router basename="/reactportfolio/">
       <Default>
         <div className="bg-white">
           <Routes>
