@@ -12,7 +12,7 @@ const Default = ({ children }) => {
   return (
     <div className="default-layout">
       <NavBar />
-      {location.pathname === "/" ? <Home/> : null}
+      {location.pathname === "/" ? <Home /> : null}
       {location.pathname === "/about" ? <About /> : null}
       {location.pathname === "/portfolio" ? <Portfolio /> : null}
       <Contact />
