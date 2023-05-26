@@ -22,6 +22,8 @@ const Portfolio = () => {
     {
       id: 3,
       src: project3,
+      codeLink: "https://github.com/lizcas01/pawdoption",
+      deployedLink: "https://pawdoption1.herokuapp.com/"
     },
     {
       id: 4,
